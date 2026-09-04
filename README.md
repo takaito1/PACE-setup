@@ -21,15 +21,15 @@ rm -rf ~/work/miniconda3/miniconda.sh
 source ~/work/miniconda3/etc/profile.d/conda.sh
 conda activate
 ```
-  - Then create a new environment called ml4o2.  
+  - Then create a new environment called calc  
 ```
-conda create --name ml4o2 python=3.11
+conda create --name calc python=3.11
 ```
-  - Then activate ml4o2.
+  - Then activate calc.
 ```
-conda activate ml4o2
+conda activate calc
 ```
-  - Then install mamba in ml4o2.
+  - Then install mamba in calc.
 ```
 conda install -c conda-forge mamba
 ```
@@ -45,6 +45,6 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 ```
   - Once it is complete, make this environment available to the Jupyter Notebook:
 ```
-python -m ipykernel install --user --name ml4o2 --display-name ML4O2
+python -m ipykernel install --user --name calc --display-name CALC
 ```
   - At this point the "ML4O2" environment should be ready to use in Jupyterlab/Jupyter Notebook. 
