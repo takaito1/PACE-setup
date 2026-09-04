@@ -39,9 +39,9 @@ mamba install -c conda-forge numpy matplotlib pandas netcdf4 dask nc-time-axis c
 ```
   - Install PyTorch with GPU support
   - You can check the current CUDA version using nvidia-smi
-  - The command below install CUDA version12.1
+  - The command below install CUDA version12.4
 ```
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 ```
   - Once it is complete, make this environment available to the Jupyter Notebook:
 ```
