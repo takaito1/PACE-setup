@@ -31,6 +31,7 @@
 #SBATCH --error=logs/objmapclim_%A_%a.err
 
 cd "~/work/PACE-setup/OI" || exit 1
+ln -s ../preproc/*.nc .
 
 module load matlab/r2025b
 
