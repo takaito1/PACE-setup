@@ -30,7 +30,7 @@
 #SBATCH --output=logs/objmapclim_%A_%a.out
 #SBATCH --error=logs/objmapclim_%A_%a.err
 
-cd "/storage/project/r-takamitsu3-0/takamitsu3/GODIP/Ito22_OI_mapping" || exit 1
+cd "~/work/PACE-setup/OI" || exit 1
 
 module load matlab/r2025b
 
