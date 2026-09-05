@@ -16,3 +16,9 @@
 - And compare against the existing o2 anomaly data for quick check
 * output
 - o2anom_NCEI_ItoClim_1x1bin_1965-2025.nc
+
+## (5) Optimal interpolation of yearly anomaly fields
+- sbatch submit_objmap_o2anom.batch
+- python gen_netcdf_anom_multi.py
+* outout
+- o2anom_NCEI_ItoClim_65C5.nc
