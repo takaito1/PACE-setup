@@ -18,7 +18,7 @@
 # don't all land on the first N workers at once, but moved to cpu-large
 # (772GB/node) as well, keeping all 24 workers with headroom to spare.
 
-#SBATCH --job-name=objmap_o2monclim
+#SBATCH --job-name=objmap_o2mclim
 #SBATCH -A gts-takamitsu3-atlas
 #SBATCH --partition=cpu-large
 #SBATCH --array=1
@@ -28,7 +28,8 @@
 #SBATCH --output=logs/objmapmonclim_%A_%a.out
 #SBATCH --error=logs/objmapmonclim_%A_%a.err
 
-cd "/storage/project/r-takamitsu3-0/takamitsu3/GODIP/Ito22_OI_mapping" || exit 1
+cd "~/work/PACE-setup/OI" || exit 1
+ln -s ../preproc/*.nc .
 
 module load matlab/r2025b
 
