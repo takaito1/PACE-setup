@@ -20,7 +20,7 @@
 # workers, with headroom to spare. Walltime bumped up since the earlier
 # 30min budget was too tight even before the OOM churn.
 
-#SBATCH --job-name=objmap_o2anom
+#SBATCH --job-name=objmap_o2clim
 #SBATCH -A gts-takamitsu3-atlas
 #SBATCH --partition=cpu-large
 #SBATCH --array=1
