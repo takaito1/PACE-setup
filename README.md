@@ -47,4 +47,4 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 ```
 python -m ipykernel install --user --name calc --display-name CALC
 ```
-  - At this point the "ML4O2" environment should be ready to use in Jupyterlab/Jupyter Notebook. 
+  - At this point the "CALC" environment should be ready to use in Jupyterlab/Jupyter Notebook. 
